@@ -1,0 +1,12 @@
+name: ADR
+
+on:
+  push: {}  # Run on everything, restrict TOC generateion with 'generate-toc-branches'
+
+jobs:
+  generate_adr_toc:
+    runs-on: ubuntu-latest
+    name: Lint ADRs and generate Table of Contents
+    steps:
+    - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579 # pin@v2.4.0
+    - uses: jules2689/adr-actions@09e434e568ea221f8164788ae65ec72b5532560d # pin@v0.0.3
