@@ -1,3 +1,4 @@
-# morancj Template
+# Architecture Decision Records
 
-Settings for Git and editors popular with [morancj](https://github.com/morancj/).
+* [1. Record architecture decisions](0001-record-architecture-decisions.md)
+* [2. Use adr-tools](0002-use-adr-tools.md)
